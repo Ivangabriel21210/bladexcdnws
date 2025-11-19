@@ -2,7 +2,7 @@ import http from 'http';
 import net from 'net';
 import { WebSocketServer } from 'ws';
 
-const VPS_HOST = '34.176.21.72'; // <--- pon tu IP
+const VPS_HOST = '159.203.73.80'; // <--- pon tu IP
 const VPS_PORT = 22;          // o el puerto SSH o backend personalizado
 
 const server = http.createServer((req, res) => {
